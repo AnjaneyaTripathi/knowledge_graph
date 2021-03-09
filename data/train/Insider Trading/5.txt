@@ -1,0 +1,18 @@
+	
+U.S. SECURITIES AND EXCHANGE COMMISSION
+
+Litigation Release No. 22312 / March 30, 2012
+
+Securities and Exchange Commission v. Quorne Limited and Michael Sarkesian, 10-cv-9560 (GBD) (S.D.N.Y)
+
+BRITISH VIRGIN ISLANDS CORPORATION AND RESIDENT OF SWITZERLAND SETTLE CHARGES OF INSIDER TRADING IN THE OPTIONS OF INTERMUNE, INC.
+
+The Securities and Exchange Commission announced that, on March 29, 2012, the Honorable George B. Daniels,U.S. District Judge for the Southern District of New York, entered a settled final judgment for insider trading in the options of InterMune, Inc. as to Michael S. Sarkesian, a Swiss citizen and resident, and Quorne Ltd., a British Virgin Islands limited liability company wholly owned by a Cyprus trust maintained for the benefit of a Sarkesian relation. The alleged illicit trading by Sarkesian and Quorne took place ahead of a December 17, 2010 announcement that the European Union’s Committee for Medicinal Products for Human Use, or CHMP, had recommended to the European Commission that it permit InterMune to market its developmental drug, Esbriet, in the European Union. Sarkesian and Quorne consented to the entry of the final judgment, which imposes injunctive and monetary relief. The Commission also announced that on March 27, 2012, it amended its complaint, filed on December 23, 2010 against one or more unknown purchasers of the options of InterMune, to name Sarkesian and Quorne as defendants.
+
+In its amended complaint, the Commission alleges that Sarkesian was tipped to material non-public information concerning the CHMP’s recommendation in advance of the December 17 announcement and that, while in possession of this material non-public information, Sarkesian exercised his authority to manage and administer Quorne’s funds by recommending to Quorne that it purchase InterMune call options. As a result, Sarkesian caused Quorne to purchase 400 InterMune call options through a brokerage account in Switzerland on December 7 and 8, 2010. The market price of the 400 options rose over 500% following the December 17 announcement.
+
+On December 23, 2010, on the same day that the Commission filed its initial complaint, the Court entered a Temporary Restraining Order freezing assets and trading proceeds from the alleged illicit trading and prohibiting the then-unknown purchasers from disposing of the options or any proceeds from the sale of the options. Quorne later sold the 400 options, the proceeds of which have remained frozen by Court order.
+
+Without admitting or denying the allegations of the amended complaint, Quorne and Sarkesian consented to entry of a final judgment enjoining them from future violations of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 thereunder and ordering them jointly and severally to pay $616,000 in disgorgement and $93,806.17 in civil penalties pursuant to Exchange Act Section 21A. The monetary sanctions will be paid out of the frozen funds. See Litigation Release No. 21794 (December 23, 2010).
+
+The Commission acknowledges the assistance of the Options Regulatory Surveillance Authority, the Swiss Financial Market Supervisory Authority, the Cyprus Securities and Exchange Commission, and the British Virgin Islands Financial Services Commission.

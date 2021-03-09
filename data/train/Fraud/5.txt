@@ -1,0 +1,13 @@
+SEC Charges California Resident with Fraudulent Free Riding Scheme
+
+Litigation Release No. 25012 / January 19, 2021
+
+Securities and Exchange Commission v. Abhi Batra a/k/a Abhimanyu Batra, No. 2:21-cv-00434 (C.D. Cal. filed January 15, 2021)
+
+The SEC announced fraud charges against California resident Abhi Batra for allegedly conducting a free-riding scheme in which he fraudulently reversed more than $1 million in Automated Clearing House (ACH) transfers.
+
+The SEC's complaint alleges that Batra transferred money from bank accounts to brokerage accounts via ACH, then used the funds to purchase speculative options contracts. The complaint further alleges that when the options trades lost money, Batra would recall the ACH transfers to the brokerage firm by falsely representing to the bank that he had not authorized the initial transfers. As a result, Batra allegedly imposed his trading losses on the brokerage firms. By contrast, according to the complaint, when his trading was profitable, Batra kept the profits for himself. As alleged, Batra engaged in the free-riding scheme between 2016 and 2020 in brokerage accounts in his name, and in the names of six others, at times without their knowledge or consent. In total, Batra allegedly recalled more than $1 million in ACH transfers, withdrew approximately $98,000 in trading profits from the brokerage accounts, and left losses in the brokerage accounts estimated at $665,000.
+
+The SEC's complaint, filed in the U.S. District Court in Los Angeles, charges Batra with violating the antifraud provisions of Section 10(b) of the Securities Exchange Act of 1934 and Rule 10b-5 thereunder, and seeks injunctions, civil penalties, and disgorgement with prejudgment interest.
+
+The SEC's investigation was conducted by Sarah Nilson and William Rosenthal and supervised by Ansu Banerjee of the Los Angeles Regional Office. The SEC's litigation will be led by John Bulgozdy and Ms. Nilson and supervised by Amy Longo.

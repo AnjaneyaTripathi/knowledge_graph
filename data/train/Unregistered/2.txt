@@ -1,3 +1,9 @@
+SEC charges Utah Company, its Principals, and Two Recidivists with Securities Fraud
+
+Litigation Release No. 25005 / January 8, 2021
+
+Securities and Exchange Commission v. ConTXT, Inc, Thomas J. Robbins, Daniel J. Merriman, Mark W. Wiseman, and Clark J. Madsen, No. 2:21-cv-00013 (U.S. District Court, District of Utah) filed January 7, 2021.
+
 The Securities and Exchange Commission today announced settled charges against a Utah corporation, its principals, and two securities fraud recidivists for allegedly orchestrating two inter-related frauds resulting in approximately $11 million in investor losses.
 
 According to the SEC's complaint, Thomas J. Robbins and Daniel J. Merriman met while incarcerated for separate and unrelated securities fraud convictions. The complaint alleges that after they were released, Robbins and Merriman created a high-yield trading program, and that, beginning in 2016, Robbins and Merriman solicited investor funds through a series of representations, including: that the Church of Jesus Christ of Latter-day Saints was a client; that they had consistently generated large returns for prior investors; and that investors could expect to earn profits of at least 20% per month. The complaint alleges that none of these representations was true. The complaint further alleges that Robbins and Merriman misappropriated investor funds to pay purported profits to earlier investors and to pay personal expenses. According to the complaint, losses for the trading program totaled over $10 million.
@@ -18,3 +24,5 @@ ConTXT: disgorgement of $269,187 plus prejudgment interest of $32,779, and a civ
 Robbins and Merriman also agreed to a conduct-based injunction. The judgment remains subject to court approval.
 
 In a parallel criminal action related to the trading program, Robbins pled guilty to securities fraud and money laundering and was sentenced to five years in prison and ordered to pay $10,170,700.69 in restitution.
+
+The SEC's investigation was conducted by Jennifer Moore and Paul Feindt and was supervised by Amy Oliver, Assistant Director, and Daniel Wadley, Regional Director of the Salt Lake Regional Office.

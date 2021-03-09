@@ -1,0 +1,13 @@
+SEC Charges AT&T and Three Executives with Selectively Providing Information to Wall Street Analysts
+
+Litigation Release No. 25045 / March 5, 2021
+
+Securities and Exchange Commission v. AT&T, Inc., et al., No. 1:21-cv-01951 (S.D.N.Y., filed March 5, 2021)
+
+On March 5, 2021, the Securities and Exchange Commission charged AT&T, Inc. with repeatedly violating Regulation FD, and three of its Investor Relations executives with aiding and abetting AT&T's violations, by selectively disclosing material nonpublic information to research analysts.
+
+According to the SEC's complaint, AT&T learned in March 2016 that a steeper-than-expected decline in its first quarter smartphone sales would cause AT&T's revenue to fall short of analysts' estimates for the quarter. The complaint alleges that to avoid falling short of the consensus revenue estimate for the third consecutive quarter, AT&T Investor Relations executives Christopher Womack, Michael Black, and Kent Evans made private, one-on-one phone calls to analysts at approximately 20 separate firms. On these calls, the AT&T executives allegedly disclosed AT&T's internal smartphone sales data and the impact of that data on internal revenue metrics, despite the fact that internal documents specifically informed Investor Relations personnel that AT&T's revenue and sales of smartphones were types of information generally considered "material" to AT&T investors, and therefore prohibited from selective disclosure under Regulation FD. The complaint further alleges that as a result of what they were told on these calls, the analysts substantially reduced their revenue forecasts, leading to the overall consensus revenue estimate falling to just below the level that AT&T ultimately reported to the public on April 26, 2016.
+
+The SEC's complaint, filed in federal district court in Manhattan, charges AT&T with violations of the disclosure provisions of Section 13(a) of the Securities Exchange Act of 1934 and Regulation FD thereunder, and charges Womack, Evans and Black with aiding and abetting these violations. The complaint seeks permanent injunctive relief and civil monetary penalties against each defendant.
+
+The SEC's investigation was conducted by George N. Stepaniuk, Thomas Peirce, and David Zetlin-Jones of the SEC's New York Regional Office. The SEC's litigation will be conducted by Alexander M. Vasilescu, Victor Suthammanont, and Mr. Zetlin-Jones. The case is being supervised by Sanjay Wadhwa.

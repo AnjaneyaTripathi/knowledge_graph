@@ -1,0 +1,31 @@
+	
+U.S. SECURITIES AND EXCHANGE COMMISSION
+
+Litigation Release No. 22237 / January 25, 2012
+
+Accounting and Auditing Release No. 3356 / January 25, 2012
+
+SEC v. Len A Familant and Paul V. Greene, Defendants, Civil Action No. 1:12-CV-00119-JEB (U.S. District Court for the District of Columbia, January 25, 2012)
+
+SEC Brings Fraud Charges Against Former InPhonic Senior Vice President and President of Americas Premiere Corporation
+
+On January 25, 2012, the Securities and Exchange Commission (“Commission”) filed a civil injunctive action against a former senior vice president and a vendor of InPhonic, Inc., a now-bankrupt online retailer of cellular phones that was headquartered in Washington, D.C. According to the Commission’s complaint, from late 2005 through early 2007, Len A. Familant, then an InPhonic senior vice president, and Paul V. Greene, president of telephone supplier Americas Premiere Corporation (“APC”), engaged in a fraudulent scheme involving a series of “round-trip transactions” to artificially inflate InPhonic’s financial results.
+
+The Commission’s complaint, filed in federal court in the District of Columbia, alleges:
+
+After the end of the third quarter of 2005 and each quarter in 2006, but before InPhonic reported its financial results, Familant obtained a total of almost $10 million in sham credits from APC and Greene. Familant and Greene entered into an unwritten, undisclosed agreement that InPhonic would repay APC by purchasing cellular telephones and repair services from APC at inflated prices and by paying for fake repairs.
+ 
+InPhonic improperly recorded the false credits from APC as a decrease in cost of goods sold. InPhonic subsequently made repayments to APC in the form of overpayments for cellular telephones, repair services and fake repairs.
+ 
+The round-trip scheme agreed to and implemented by Familant and Greene resulted in material understatements of InPhonic’s net loss (between 7% and 55%) in quarterly and annual filings with the Commission and material overstatements of InPhonic’s adjusted EBITDA in earnings releases from 2005-2007.
+ 
+Familant and Greene concealed the fraudulent round-trip scheme. For instance, together they identified particular telephone models APC could provide to InPhonic at inflated prices without raising suspicion.
+ 
+Greene hid the round-trip scheme from InPhonic’s independent auditors even after APC’s accountant had informed Greene that APC’s sham credit transactions with InPhonic were illegal.
+ 
+Familant encouraged APC to hide its billing for phony services after Familant learned that APC’s accountant had told Greene, “[w]e cannot do that. That is fraud. . . .”
+ 
+In October 2007, as InPhonic’s business was failing and after APC had been unable to fully recoup the credits, Greene sent an email to himself outlining a proposed lawsuit against InPhonic. Greene referred to “the fake credits that were negotiated with INPC that they were using to hit certain quarterly numbers.”
+Greene is charged with violating, and aiding and abetting InPhonic’s and Familant’s violations, of the antifraud provisions of Section 10(b) of the Securities Exchange Act of 1934 (“Exchange Act”) and Exchange Act Rules 10b-5(a) and (c). Greene is also charged with violating the books and records provision of Exchange Act Rule 13b2-1, and with aiding and abetting InPhonic’s violations of the reporting and books and records provisions of Sections 13(a) and 13(b)(2)(A) of the Exchange Act and Exchange Act Rules 12b-20, 13a-1, 13a-11 and 13a-13. The SEC is seeking a permanent injunction, disgorgement, civil penalties and prejudgment interest against Greene.
+
+Familant has agreed to settle the Commission’s charges without admitting or denying the allegations against him. Familant has consented to a final judgment enjoining him from violating the antifraud provisions of Section 10(b) of the Exchange Act and Exchange Act Rules 10b-5(a) and (c), and the books and records provision of Exchange Act Rule 13b2-1, and from aiding and abetting InPhonic’s violations of the reporting and books and records provisions of Sections 13(a) and 13(b)(2)(A) of the Exchange Act and Rules 12b-20, 13a-1, 13a-11 and 13a-13. Familant also has agreed to pay a $50,000 civil penalty and to be barred from serving as an officer or director of a public company. The proposed settlement with Familant is subject to the approval of the District Court.

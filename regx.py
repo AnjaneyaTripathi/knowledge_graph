@@ -35,7 +35,8 @@ def getViolations(text):
             if violations_list[i].endswith('and '):
                 violations_list[i] = violations_list[i][:-4]
             
-        print('\n', violations_list)           
+        print('\n', violations_list)     
+        return violations_list      
     
 # violators
 def getViolators(text):
@@ -45,6 +46,7 @@ def getViolators(text):
             violators[i] = violators[i][3:-5]
             
     print('\n', violators)
+    return violators
 
 # action taken
 def actionTaken(text):
@@ -60,6 +62,7 @@ def actionTaken(text):
                 flag = True
             
     print('\n', actiontaken)
+    return actiontaken
 
 def main():
     with open('./docs/regex3.txt', encoding='utf8') as f:

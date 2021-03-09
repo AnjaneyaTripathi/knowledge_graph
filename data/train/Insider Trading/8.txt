@@ -1,0 +1,15 @@
+U.S. SECURITIES AND EXCHANGE COMMISSION
+
+Litigation Release No. 22963 / April 2, 2014
+
+Securities and Exchange Commission v. John Kinnucan and Broadband Research Corporation, Civil Action No. 12-CV-1230 (SDNY) (AJN)
+
+SEC Granted Summary Judgment in Insider Trading Case Against John Kinnucan and His Expert Consulting Firm
+
+The Securities and Exchange Commission announced that earlier today Judge Alison J. Nathan of the United States District Court for the Southern District of New York entered final judgments in the SEC's civil injunctive action against John Kinnucan and his Portland, Oregon-based expert consulting firm Broadband Research Corporation. The Court imposed judgments of $6,533,492.88 against each defendant on a joint and several basis, including disgorgement of $1,583,445.96 together with prejudgment interest of $199,790.14 and a civil penalty of $4,750,337.88. The defendants were also permanently enjoined from future violations of the Securities Exchange Act of 1934 and Rule 10b-5.
+
+The charges against Kinnucan and Broadband stemmed from the SEC's ongoing investigation of insider trading involving expert networks. In a parallel criminal case, Kinnucan previously pled guilty to two counts of securities fraud and one count of conspiracy to commit securities fraud. Kinnucan is currently incarcerated in California.
+
+In its complaint, filed on February 17, 2012, the SEC alleged that Kinnucan and Broadband claimed to be in the business of providing clients with legitimate research about publicly-traded technology companies, but instead routinely tipped clients with material nonpublic information that Kinnucan obtained from prohibited sources inside the companies. Clients then traded on the inside information. Portfolio managers and analysts at prominent hedge funds and investment advisers paid Kinnucan and Broadband significant consulting fees for the information that Kinnucan provided. Kinnucan in turn compensated his sources with cash, meals, ski trips and other vacations, and even befriended some sources to gain access to confidential information.
+
+The SEC's complaint specifically alleged that in July 2010, Kinnucan obtained material nonpublic information from a source at F5 Networks Inc., a Seattle-based provider of networking technology. On the morning of July 2, Kinnucan learned that F5 had generated better-than-expected financial results for the third quarter of its 2010 fiscal year, with the public announcement scheduled for July 21. Within hours of learning the confidential details, Kinnucan had phone conversations or left messages with several clients to convey that F5's revenues would exceed market expectations. At least three clients — an analyst and two portfolio managers — caused trades at their respective investment advisory firms on the basis of Kinnucan's inside information. The insider trading resulted in profits or avoided losses of nearly $1.6 million, the amount that Kinnucan and Broadband have been ordered to disgorge.
