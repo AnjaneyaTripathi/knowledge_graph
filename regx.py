@@ -35,7 +35,7 @@ def getViolations(text):
             if violations_list[i].endswith('and '):
                 violations_list[i] = violations_list[i][:-4]
             
-        print('\n', violations_list)     
+        # print('\n', violations_list)     
         return violations_list      
     
 # violators
@@ -45,7 +45,7 @@ def getViolators(text):
         for i in range(len(violators)):
             violators[i] = violators[i][3:-5]
             
-    print('\n', violators)
+    # print('\n', violators)
     return violators
 
 # action taken
@@ -61,7 +61,7 @@ def actionTaken(text):
                 actiontaken.append(sentence.strip())
                 flag = True
             
-    print('\n', actiontaken)
+    # print('\n', actiontaken)
     return actiontaken
 
 def main():
