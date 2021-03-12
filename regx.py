@@ -6,7 +6,34 @@ Created on Fri Feb 19 16:06:58 2021
 """
 
 import re
+from nltk.tokenize import sent_tokenize
 
+def getViolations2(text):
+    violations_list = getViolations(text)
+    for i in range(len(violations_list)):
+            violation = re.findall("violat.*Section", violations_list[i])
+            if violation:
+                idx = violations_list[i].find('violat')
+                violations_list[i] = violations_list[i][idx:]
+                
+    return violations_list
+
+def getViolations3(text):
+    sentences = sent_tokenize(text)
+    violations_list=[]
+    for sentence in sentences:
+        violation = re.findall("Section.*?of [0-9]{4}", sentence)
+        if violation:
+            for v in violation:
+                violations_list.append(v)
+        else:
+            violation = re.findall("Section.*?Act", sentence)
+            if violation: 
+                for v in violation:
+                    violations_list.append(v)
+                
+    print(violations_list)
+    return violations_list
 
 # section violations
 def getViolations(text):
@@ -55,12 +82,6 @@ def getViolations(text):
                 violations_list[i] = violations_list[i][4:]
             if violations_list[i].endswith('and '):
                 violations_list[i] = violations_list[i][:-4]
-                
-        for i in range(len(violations_list)):
-            violation = re.findall("violat.*Section", violations_list[i])
-            if violation:
-                idx = violations_list[i].find('violat')
-                violations_list[i] = violations_list[i][idx:]
             
         print('\n', violations_list)     
         return violations_list      
@@ -92,12 +113,15 @@ def actionTaken(text):
     return actiontaken
 
 def main():
-    with open('docs/sample9.txt', encoding='utf8') as f:
+    with open('docs/sample8.txt', encoding='utf8') as f:
         text = f.read()
-    text = text.lower() 
     
     print('\n\nViolations')
-    getViolations(text)
+    getViolations3(text)
+    print()
+    text = text.lower() 
+
+    getViolations2(text)
     print('\n\nViolators')
     getViolators(text)
     print('\n\nAction taken')
