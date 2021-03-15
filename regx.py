@@ -88,13 +88,25 @@ def getViolations(text):
     
 # violators
 def getViolators(text):
+    #TODO: Handle case where violator name not in title
     violators = re.findall("v\..*no\.", text)
+    violators_list=[]
     if violators:
-        for i in range(len(violators)):
-            violators[i] = violators[i][3:-5]
-            
-    print('\n', violators)
-    return violators
+        violators = violators[0][3:-5]
+    else:
+        violators = re.findall("v\..*?[0-9]", text)
+        if violators:
+            violators = violators[0][3:-5]
+    if violators:        
+        result = [x.strip() for x in violators.split(',')] 
+        for res in result:
+            if(len(res)>7):
+                violators_list.append(res)
+                if(res=='et al.'):
+                    break
+    
+    print(violators_list)
+    return violators_list
 
 # action taken
 def actionTaken(text):
@@ -112,21 +124,113 @@ def actionTaken(text):
     print('\n', actiontaken)
     return actiontaken
 
+def multiKeywords(keywords, sentence, label_index):
+    res = [ele for ele in keywords if(ele in sentence)]
+    if(len(res)>1):
+        return True
+    return False
+
+def getAllPenalties(text):
+    sentences = sent_tokenize(text)
+    penalties=[]
+    for sentence in sentences:
+        getPenalty(penalties, sentence)  
+        
+    print(penalties)
+    return penalties
+
+def findAmount(snippet):
+    num = re.findall(r'\d+', snippet)[-1]
+    start = snippet.rfind('$')
+    end = snippet.rfind(num)
+    return start, end+len(num)
+
+
+def getPenalty(penalties, text):
+    labels = ['Disgorgement', 'Penalty', 'Prejudgment interest', 'Total']
+    keywords = ['disgorge', 'penalt', 'prejudgment interest', ]
+        
+    # Disgorgement
+    disgorge_regex1 = re.findall('\$.*?in disgorge', text)
+    if disgorge_regex1:
+        for disgorgement in disgorge_regex1:
+            if not (multiKeywords(keywords, disgorgement, 0)):
+                start, end = findAmount(disgorgement)
+                penalties.append([labels[0], disgorgement[start:end]])
+    disgorge_regex2 = re.findall('disgorge.*?of \$.*?[ \.]', text)
+    if disgorge_regex2:
+        for disgorgement in disgorge_regex2:
+            if not (multiKeywords(keywords, disgorgement, 0)):
+                start, end = findAmount(disgorgement)
+                penalties.append([labels[0], disgorgement[start:end]])
+            
+    # # Civil Penalty
+    # civil_regex1 = re.findall('\$.*?in civil penalt', text)
+    # if civil_regex1:
+    #     for civil_penalty in civil_regex1:
+    #         start, end = findAmount(civil_penalty)
+    #         penalties.append([labels[1], civil_penalty[start:end]])
+    # civil_regex2 = re.findall('civil penalt.*?of \$.*?[ \.]', text)
+    # if civil_regex2:
+    #     for civil_penalty in civil_regex2:
+    #         start, end = findAmount(civil_penalty)
+    #         penalties.append([labels[1], civil_penalty[start:end]])
+            
+    # Penalty
+    penalty_regex1 = re.findall('\$.*?in.*?penalt', text)
+    if penalty_regex1:
+        for penalty in penalty_regex1:
+            if not (multiKeywords(keywords, penalty, 1)):
+                start, end = findAmount(penalty)
+                penalties.append([labels[1], penalty[start:end]])
+    penalty_regex2 = re.findall('penalt.*?\$.*?[ \.]', text)
+    if penalty_regex2:
+        for penalty in penalty_regex2:
+            if not (multiKeywords(keywords, penalty, 1)):
+                start, end = findAmount(penalty)
+                penalties.append([labels[1], penalty[start:end]])
+            
+    # Prejudgement interest
+    prejudgment_regex1 = re.findall('\$.*?in prejudgment interest', text)
+    if prejudgment_regex1:
+        for interest in prejudgment_regex1:
+            if not (multiKeywords(keywords, interest, 2)):
+                start, end = findAmount(interest)
+                penalties.append([labels[2], interest[start:end]])
+    prejudgment_regex2 = re.findall('prejudgment interest.*?of \$.*?[ \.]', text)
+    if prejudgment_regex2:
+        for interest in prejudgment_regex2:
+            if not (multiKeywords(keywords, interest, 2)):
+                start, end = findAmount(interest)
+                penalties.append([labels[2], interest[start:end]])
+            
+    # Total
+    total_regex = re.findall('total.*?\$.*?[ \.]', text)
+    if total_regex:
+        for total in total_regex:
+            start, end = findAmount(total)
+            penalties.append([labels[3], total[start:end]])
+            
+    
+    return penalties
+
 def main():
-    with open('docs/sample8.txt', encoding='utf8') as f:
+    with open('docs/sample18.txt', encoding='utf8') as f:
         text = f.read()
     
-    print('\n\nViolations')
-    getViolations3(text)
-    print()
+    # print('\n\nViolations')
+    # getViolations3(text)
+    # print()
     text = text.lower() 
 
-    getViolations2(text)
-    print('\n\nViolators')
-    getViolators(text)
-    print('\n\nAction taken')
-    actionTaken(text)
-
+    # getViolations2(text)
+    # print('\n\nViolators')
+    # getViolators(text)
+    # print('\n\nAction taken')
+    # actionTaken(text)
+    
+    print('\n\n Penalty')
+    getAllPenalties(text)
 if __name__ == "__main__":
     main()    
 
