@@ -38,6 +38,7 @@ def getViolations3(text):
 # section violations
 def getViolations(text):
     violations = re.findall("(violat.*section.*?)\.", text)
+    violations_list = []
     if violations:
         z = re.split('section',violations[0])
         for i in range(len(z)):
@@ -50,7 +51,6 @@ def getViolations(text):
                 y.append(sent)
         y[1] = y[0] + y[1]
         
-        violations_list = []
         for i in range(1, len(y), 1):
             nums = re.findall(r'[0-9]+', y[i])            
             if not nums:
@@ -84,7 +84,7 @@ def getViolations(text):
                 violations_list[i] = violations_list[i][:-4]
             
         print('\n', violations_list)     
-        return violations_list      
+    return violations_list      
     
 # violators
 def getViolators(text):
