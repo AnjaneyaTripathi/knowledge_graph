@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Feb 19 16:06:58 2021
-
-@author: Isha
-"""
-
 import re
 from nltk.tokenize import sent_tokenize
 
@@ -32,7 +25,6 @@ def getViolations3(text):
                 for v in violation:
                     violations_list.append(v)
                 
-    print(violations_list)
     return violations_list
 
 # section violations
@@ -74,21 +66,17 @@ def getViolations(text):
                 section = violations_list[l-1].rfind("Section", z)
                 if penalty!= -1 and section==-1:
                     violations_list[l-1] = violations_list[l-1][:z]
-
                     
-    
         for i in range(len(violations_list)):
             if violations_list[i].startswith('and'):
                 violations_list[i] = violations_list[i][4:]
             if violations_list[i].endswith('and '):
                 violations_list[i] = violations_list[i][:-4]
-            
-        print('\n', violations_list)     
+                 
     return violations_list      
     
 # violators
 def getViolators(text):
-    #TODO: Handle case where violator name not in title
     violators = re.findall("v\..*no\.", text)
     violators_list=[]
     if violators:
@@ -104,8 +92,7 @@ def getViolators(text):
                 violators_list.append(res)
                 if(res=='et al.'):
                     break
-    
-    print(violators_list)
+
     return violators_list
 
 # action taken
@@ -121,7 +108,6 @@ def actionTaken(text):
                 actiontaken.append(sentence.strip())
                 flag = True
             
-    print('\n', actiontaken)
     return actiontaken
 
 def multiKeywords(keywords, sentence, label_index):
@@ -135,8 +121,6 @@ def getAllPenalties(text):
     penalties=[]
     for sentence in sentences:
         getPenalty(penalties, sentence)  
-        
-    print(penalties)
     return penalties
 
 def findAmount(snippet):
@@ -144,7 +128,6 @@ def findAmount(snippet):
     start = snippet.rfind('$')
     end = snippet.rfind(num)
     return start, end+len(num)
-
 
 def getPenalty(penalties, text):
     labels = ['Disgorgement', 'Penalty', 'Prejudgment interest', 'Total']
@@ -210,9 +193,18 @@ def getPenalty(penalties, text):
         for total in total_regex:
             start, end = findAmount(total)
             penalties.append([labels[3], total[start:end]])
-            
     
     return penalties
+
+def getDate(text):
+    year = ''
+    dt = ''
+    date = re.findall("[a-z]* [0-9]+, [0-9]{4}", text)
+    if(date):
+        # date = re.findall("[a-z]* [0-9]+, [0-9]{4}", date[0])
+        year = date[0][-4:]
+        dt = date[0]
+    return dt, year
 
 def main():
     with open('docs/sample18.txt', encoding='utf8') as f:
@@ -231,6 +223,7 @@ def main():
     
     print('\n\n Penalty')
     getAllPenalties(text)
+    
 if __name__ == "__main__":
     main()    
 
