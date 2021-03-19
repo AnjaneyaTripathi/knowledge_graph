@@ -1,5 +1,5 @@
-2020,2021,Crime,2010,2011,2012,2014,2019
-0,0,Insider Trading,2,1,5,1,0
-2,10,Misappropriated Funds,0,1,1,0,0
-1,5,Unregistered,0,2,1,0,1
-2,17,Fraud,1,2,2,1,1
+Crime,2010,2011,2012,2014,2019,2020,2021
+Insider Trading,2,1,5,1,0,0,0
+Misappropriated Funds,0,1,1,0,0,2,10
+Unregistered,0,2,1,0,1,1,5
+Fraud,1,2,2,1,1,2,17
