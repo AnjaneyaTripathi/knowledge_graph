@@ -7,15 +7,15 @@ The documents have been categorised into 4 main categories - Fraud, Insider Trad
 After the classification, we have proceeded to extract relevant information from these litigations such as the violations, violators, action taken against the individuals as well as the fine imposed. These have been stored in a tabular format. The above data has also been prepared to be converted into a knowledge graph. The knowledge graph is nested in nature.
 An example of one graph has been included below. 
 
-![Sample Knowledge Graph](/images/revamped_kg10.png)
+![Sample Knowledge Graph](/results/images/revamped_kg10.png)
 
 The data has also been compiled to ensure that it is easy to view instead of going through all the litigation releases on the SECs website.
 
-![Releases](/images/releases.png)
+![Releases](/results/images/releases.png)
 
 We have also compiled the data according to years and categorized it with the number of occurences of said crimes.
 
-![Years](/images/years.png)
+![Years](/results/images/years.png)
 
 ### Learnings
 
