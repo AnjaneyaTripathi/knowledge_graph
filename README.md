@@ -1,6 +1,6 @@
 # Financial Knowledge Graphs
 
-A nested knowledge graph has been constructed as a proof of concept on financial documents. Using the litigation releases from the [SECs Website](https://www.sec.gov/litigation/litreleases.htm).
+A knowledge graph has been constructed as a proof of concept on financial documents. Using the litigation releases from the [SECs Website](https://www.sec.gov/litigation/litreleases.htm).
 
 The documents have been categorised into 4 main categories - Fraud, Insider Trading, Misappropriation of Funds and Unregistered Brokers. (There are more categories, but this is just a PoC so we have considered only these 4 categroies).
 
