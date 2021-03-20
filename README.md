@@ -8,3 +8,15 @@ After the classification, we have proceeded to extract relevant information from
 An example of one graph has been included below. 
 
 ![Sample Knowledge Graph](/images/revamped_kg10.png)
+
+The data has also been compiled to ensure that it is easy to view instead of going through all the litigation releases on the SECs website.
+
+![Releases](/images/releases.png)
+
+We have also compiled the data according to years and categorized it with the number of occurences of said crimes.
+
+![Years](/images/years.png)
+
+### Learnings
+
+We had used a BERT text classification model (accuracy was 24.67%) as well as an Unsupervised LDA topic modelling algorithm to classify the text into different categories, however teh results were extremely poor. A regex parser turned out to perform much better than the previous two models. 
