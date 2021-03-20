@@ -1,4 +1,4 @@
-# Financial Nested Knowledge Graphs
+# Financial Knowledge Graphs
 
 A nested knowledge graph has been constructed as a proof of concept on financial documents. Using the litigation releases from the [SECs Website](https://www.sec.gov/litigation/litreleases.htm).
 
