@@ -1,4 +1,4 @@
-# Financial Knowledge Graphs
+# Knowledge Graphs on Legal Data (SEC)
 
 A knowledge graph has been constructed as a proof of concept on financial documents. Using the litigation releases from the [SECs Website](https://www.sec.gov/litigation/litreleases.htm).
 
