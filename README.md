@@ -6,7 +6,7 @@ The documents have been categorised into 4 main categories - Fraud, Insider Trad
 
 After the classification, we have proceeded to extract relevant information from these litigations such as the violations, violators, action taken against the individuals as well as the fine imposed. These have been stored in a tabular format. The above data has also been prepared to be converted into a knowledge graph which is nested in nature.
 
-**Classification of Crimes**
+### **Classification of Crimes**
 
 For the classification of crimes, multiple algorithms were implemented to identify them accurately. 4 main classes were picked into which all the documents were classified, they were - Insider Trading, Misappropriation of Funds, Unregistered Brokers and Fraud. Many of the crimes would be a part of multiple classes, so they were classified accordingly. Three approaches were tried, they were:
 
@@ -16,7 +16,7 @@ For the classification of crimes, multiple algorithms were implemented to identi
 
 As a result, we settled to use a regex parser for the classification of the litigation releases into different crimes.
 
-**Entity Extraction**
+### **Entity Extraction**
 
 For the construction of the knowledge graph, we tried multiple approaches to identify the relevant entities in the corpus. The approaches were:
 
@@ -24,7 +24,7 @@ For the construction of the knowledge graph, we tried multiple approaches to ide
 2. **SVO Extraction:** This approach involved the identification of triplet phrases. We would identify the subject and object phrases and the relation between the two was the verb phrase. This extraction algorithm performed significantly better than our initial approach. However, in some cases the relationship across the document entities were lost. This shortcoming motivated us to use the concept of ontologies for knowledge graph representation.
 3. **Ontologies for Information Extraction:** We decided that since these documents had a lot of similarities between them and we could construct ontology rules from the available litigation releases. The ontology has 5 main classes - Violator, Violation, Crime, Action Taken, Fine and Date. Relationships were drawn between the various classes and this prompted us to use a nested knowledge graph structure instead of the standard triplet relationships. We then classified
 
-**Classes of the Ontology**
+### **Classes of the Ontology**
 
 1. **Violators:**
 For picking out the violators from the text, multiple litigation releases were studied and it was observed that in most cases the violator&#39;s name was present as part of the heading usually in the form of &#39;Authority name vs Violator name No.&#39; followed by the litigation number. Regular expressions were used to pick out the pattern &#39;vs name No.&#39;, and the violator name was picked out from all occurrences of such patterns.
@@ -44,7 +44,7 @@ After studying multiple litigation releases, it was found that any paragraph tha
 5. **Dates:**
 A regular expression was used to find out the date when the case was filed.
 
-**Knowledge Graph Construction**
+### **Knowledge Graph Construction**
 
 After the classes have been defined, we proceed to link them to each other using various relationships. These relationships are:
 
@@ -53,7 +53,7 @@ After the classes have been defined, we proceed to link them to each other using
 3. Violator → face → Action
 4. Crime → ofValue → Fine
 
-**Results**
+### **Results**
 
 Using the above ontology and the relationships between the various classes, we were able to create a nested knowledge graph. It&#39;s visualisation has been attached below.
 
@@ -67,6 +67,6 @@ In Fig. 3, we have shown how some insights can be derived from the data that has
 
 ![Fig. 2](/results/images/years.png)
 
-**Further Work**
+### **Further Work**
 
 For deriving more insights from the knowledge base that has been created and the accompanying knowledge graph, we can store the data in graph databases such as Neo4j or GraphQL. This allows us to dynamically update the graph and derive inferences from the data. We can also get metadata from the litigation releases. An example can be seen in Fig. 3.
