@@ -28,15 +28,6 @@ def print_resolved(corenlp_output):
             result += output_word
     return result
 
-'''
-text = "Anjaneya is a student at NIT Trichy. He is specializing in CS and has a keen interest in NLP and ML. His best friend is Isha. She is another CS undergraduate at the same college and an amazing Application Developer. They both are a member of Spider, the development club of NIT Trichy. Isha and Prithvi are in a relationship. He is a very hard worker and is pursuing Mechanical engineering. Khushali is a good friend of Anjaneya. She is a very tall and thin person. She and Isha are flat mates."
-output = nlp.annotate(text, properties= {'annotators':'dcoref','outputFormat':'json','ner.useSUTime':'false'})
-resolve(output)
-print('Original:', text)
-print('Resolved: ', end='')
-res = print_resolved(output)
-'''
-
 def resolve_text(text):
     output = nlp.annotate(text, properties= {'annotators':'dcoref','outputFormat':'json','ner.useSUTime':'false'})
     resolve(output)
