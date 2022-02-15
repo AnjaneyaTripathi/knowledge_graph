@@ -70,3 +70,11 @@ In Fig. 3, we have shown how some insights can be derived from the data that has
 ### **Further Work**
 
 For deriving more insights from the knowledge base that has been created and the accompanying knowledge graph, we can store the data in graph databases such as Neo4j or GraphQL. This allows us to dynamically update the graph and derive inferences from the data. We can also get metadata from the litigation releases. An example can be seen in Fig. 3.
+
+### Using Topic Modelling Independently
+
+To get topics in a ```*.txt``` file, execute the below command with the following arguments - path to the file and a number indicating the number of topics you want.
+
+```
+python topic_modelling.py path/to/file n
+```
